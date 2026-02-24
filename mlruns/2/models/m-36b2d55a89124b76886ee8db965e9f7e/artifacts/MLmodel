@@ -1,0 +1,23 @@
+artifact_path: file:///D:/OMFX/ML bootcamp/Mlops/MLOPS-Complete-MLflow/mlruns/2/models/m-36b2d55a89124b76886ee8db965e9f7e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-36b2d55a89124b76886ee8db965e9f7e
+model_size_bytes: 317818
+model_uuid: m-36b2d55a89124b76886ee8db965e9f7e
+prompts: null
+run_id: 956da7a030594918b62447ee29b77f34
+utc_time_created: '2026-02-23 20:10:24.585304'

@@ -1,0 +1,29 @@
+artifact_path: file:///D:/OMFX/ML bootcamp/Mlops/MLOPS-Complete-MLflow/artifacts/1/models/m-7038338938df4910bb6ed552fe0426e9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.10.0
+model_id: m-7038338938df4910bb6ed552fe0426e9
+model_size_bytes: 11596
+model_uuid: m-7038338938df4910bb6ed552fe0426e9
+prompts: null
+run_id: ad97c4f0dd1a40f4bb545033e3df0e37
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 13]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-02-24 06:19:22.214920'
